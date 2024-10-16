@@ -15,7 +15,7 @@ import './PeopleStatus.css';
 
 
 const PeopleStatus = () => {
-    const person = 7; // 예시 값, 필요에 따라 변경 가능
+    const person = 11; // 예시 값, 필요에 따라 변경 가능
 
     return (
         <>
@@ -55,12 +55,31 @@ const PeopleStatus = () => {
                     <div className="status-textDiv3">
                     <p className="status-text">아리소리에 사람이<br />어느 정도<br />있어요</p>
                     </div>
-                    
+                    <div className="statusNotManySpring">
+                        <img src={statusNotManySpring} alt="statusNotManySpring" />
+                    </div>
+                    <div className="statusNotManyStar">
+                        <img src={statusNotManyStar} alt="statusNotManyStar" />
+                    </div>
+                    <div className='statusNotMany'>
+                        <img src={statusNotMany} alt="statusNotMany" />
+                    </div>
                 </StatusDiv>
             )}
             {person > 10 && ( 
                 <StatusDiv version="fourthdary">
-                    
+                    <div className="status-textDiv4">
+                        <p className="status-text-right">아리소리에 사람이<br />많아요!</p>
+                    </div>
+                    <div className='statusMany'>
+                        <img src={statusMany} alt="statusMany" />
+                    </div>
+                    <div className='statusManyEleBig'>
+                        <img src={statusManyEleBig} alt="statusManyEleBig" />
+                    </div>
+                    <div className='statusManyEleSmall'>
+                        <img src={statusManyEleSmall} alt="statusManyEleSmall" />
+                    </div>
                 </StatusDiv>
             )}
         </>

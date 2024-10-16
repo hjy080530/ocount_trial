@@ -1,0 +1,8 @@
+.button-sort-container{
+    display: flex;
+    width: 470px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    flex-shrink: 0;
+}

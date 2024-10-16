@@ -12,4 +12,4 @@ const Footer = () => {
         </div>
     );
 };
-export default Footer;//ㄴㅊㅁasdfgfhgh
+export default Footer;

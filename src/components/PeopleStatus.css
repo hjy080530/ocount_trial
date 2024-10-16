@@ -33,6 +33,20 @@
     height: 32px;
     flex-shrink: 0;
 }
+.status-text-right{
+    font-family: 'CHAB_OTF';
+    text-align: right;
+    color: #FFF;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 250px;
+    height: 32px;
+    flex-shrink: 0;
+}
 .status-textDiv1{
     margin-top: 40px;
     margin-left: 50px;
@@ -52,4 +66,36 @@
 .statusSome{
     margin-top: -85px;
     margin-left: 150px;
+}
+.status-textDiv3{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.statusNotManySpring{
+    margin-top: 90px;
+    margin-left: 90px;
+}
+.statusNotManyStar{
+    margin-top: 0px;
+    margin-left: 60px;
+}
+.statusNotMany{
+    margin-top: -110px;
+    margin-left: 150px;
+}
+.status-textDiv4{
+    margin-top: 40px;
+    margin-left: 5px;
+}
+.statusMany{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.statusManyEleBig{
+    margin-top: -100px;
+    margin-left: 160px;
+}
+.statusManyEleSmall{
+    margin-top: 0px;
+    margin-left: 170px;
 }

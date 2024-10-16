@@ -1,0 +1,37 @@
+.how-to-use-button-container{
+    display: flex;
+    width: 510px;
+    height: 130px;
+    border-radius: 30px;
+    border: 3px solid #FFC300;
+    background: #FFF;
+}
+.how-to-use-button-text-sort{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1px;
+    margin-left: 25px;
+    margin-top: 31px;
+}
+.how-to-use-button-text-En{
+    color: #000;
+    font-family: Pretendard;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.how-to-use-button-text-Ko{
+    color: #000;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    align-self: stretch;
+}
+.how-to-use-button-lighticon{
+    margin-left: 100px;
+    margin-top: 0px;
+}

@@ -1,0 +1,22 @@
+.contact-container{
+    display: flex;
+    width: 510px;
+    height: 130px;
+    border-radius: 30px;
+    background: #FFC300;
+}
+.contact-sort{
+    margin-left: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 29px;
+}
+.contact-text{
+    color: #FFF;
+    font-family: Pretendard;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
