@@ -15,14 +15,14 @@ import './PeopleStatus.css';
 
 
 const PeopleStatus = () => {
-    const person = 3; // 예시 값, 필요에 따라 변경 가능
+    const person = 7; // 예시 값, 필요에 따라 변경 가능
 
     return (
         <>
             {person === 0 && (
                 <StatusDiv version="primary">
                     <div className="status-textDiv1">
-                        <p className="status-text">아리소리에 사람이 없어요!</p>
+                        <p className="status-text">아리소리에 사람이 <br /> 없어요!</p>
                     </div>
                         <div className="status-dots">
                             <img src={statusDot} alt="statusDot" />
@@ -37,7 +37,7 @@ const PeopleStatus = () => {
             {person > 0 && person <= 5 && (
                 <StatusDiv version="secondary">
                     <div className="status-textDiv2">
-                        <p className="status-text">아리소리에 사람이 많지 않아요!</p>
+                        <p className="status-text">아리소리에 사람이<br />  많지 않아요!</p>
                     </div>
                     <div className="sortStarB">
                         <img src={statusStarBig} alt="statusStarBig" />
@@ -52,6 +52,9 @@ const PeopleStatus = () => {
             )}
             {person > 5 && person <= 10 && (
                 <StatusDiv version="thirdary">
+                    <div className="status-textDiv3">
+                    <p className="status-text">아리소리에 사람이<br />어느 정도<br />있어요</p>
+                    </div>
                     
                 </StatusDiv>
             )}
@@ -62,6 +65,6 @@ const PeopleStatus = () => {
             )}
         </>
     );
-};
+};//CSA
 
 export default PeopleStatus;
