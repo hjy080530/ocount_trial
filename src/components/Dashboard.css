@@ -1,0 +1,8 @@
+.dashBoard{
+    display: flex;
+    width: 840px;
+    height: 472px;
+    align-items: flex-end;
+    gap: 20px;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,41 @@
+/* 기본 스타일 */
+.status-div {
+    border-radius: 30px;
+    background: #6BC4FF;
+    width: 300px;
+    height: 280px;
+    flex-shrink: 0;
+  }
+  
+  /* 버전별 스타일 정의 */
+  .status-div.primary {
+    border-radius: 30px;
+    background: #6BC4FF;
+    width: 300px;
+    height: 280px;
+    flex-shrink: 0;
+  }
+  
+  .status-div.secondary {
+    border-radius: 30px;
+    background:#4CAF50;
+    width: 300px;
+    height: 280px;
+    flex-shrink: 0;
+  }
+  
+  .status-div.thirdary {
+    border-radius: 30px;
+    background: #FF8544;
+    width: 300px;
+    height: 280px;
+    flex-shrink: 0;
+  }
+  
+  .status-div.fourthdary{
+    border-radius: 30px;
+    background:  #FF6B6B;
+    width: 300px;
+    height: 280px;
+    flex-shrink: 0;
+  }

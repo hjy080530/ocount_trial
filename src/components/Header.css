@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Pretendard:wght@400&display=swap');
+
+.main-header {
+    display: flex;
+    width: 840px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.log-in-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    width: 100px;
+    border: 1px solid #000;
+    background: #FFF;
+    padding: 10px 20px;
+}
+
+.log-in-buttonp {
+    color: #000;
+    font-family: 'Pretendard', sans-serif; 
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
