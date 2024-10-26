@@ -1,10 +1,18 @@
 .how-to-use-button-container{
     display: flex;
     width: 510px;
-    height: 130px;
+    height: 124px;
     border-radius: 30px;
     border: 3px solid #FFC300;
     background: #FFF;
+}
+.how-to-use-button-container:hover{
+    display: flex;
+    width: 510px;
+    height: 124px;
+    border-radius: 30px;
+    border: 3px solid#FFC300 ;
+    background: #E4E4E4;
 }
 .how-to-use-button-text-sort{
     display: flex;

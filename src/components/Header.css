@@ -17,6 +17,16 @@
     background: #FFF;
     padding: 10px 20px;
 }
+.log-in-button:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    width: 100px;
+    border: 1px solid #000;
+    background: #E4E4E4;
+    padding: 10px 20px;
+}
 
 .log-in-buttonp {
     color: #000;

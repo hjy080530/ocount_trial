@@ -15,7 +15,7 @@ import './PeopleStatus.css';
 
 
 const PeopleStatus = () => {
-    const person = 11; // 예시 값, 필요에 따라 변경 가능
+    const person = 0; // 예시 값, 필요에 따라 변경 가능
 
     return (
         <>

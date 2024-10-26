@@ -10,6 +10,18 @@
     flex-direction: column;
     padding-left: 10%;
 }
+.amountView:hover{
+    display: flex;
+    width: 840px;
+    height: 170px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #262626;
+    box-sizing: border-box;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 10%;
+}
 .current{
     color: #FFF;
     font-family: 'Pretendard', sans-serif; 
