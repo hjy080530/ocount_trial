@@ -7,9 +7,12 @@ function App() {
   return (
     <>
     <div className='container'>
-      <Header />
-      <Dashboard />
-      <Footer />
+      <div className='element'>
+        <Header />
+        <Dashboard />
+        <Footer />
+      </div>
+
     </div>
     </>
   )

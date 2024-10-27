@@ -1,6 +1,6 @@
 import React from 'react';
 import './Contact.css';
-import Contactimg from '/Users/hwangjiyeong/Desktop/occount/default/src/image/Contact.svg'
+import Contactimg from "../image/Contact.svg";
 const Contact = () => {
     return (
         <div className="contact-container">

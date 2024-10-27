@@ -1,19 +1,19 @@
 .contact-container{
     display: flex;
-    width: 510px;
-    height: 130px;
+    width: 100%;
+    height: 46.43%;
     border-radius: 30px;
     background: #FFC300;
 }
 .contact-container:hover{
     display: flex;
-    width: 510px;
-    height: 130px;
+    width: 100%;
+    height: 46.43%;
     border-radius: 30px;
     background: #D3A202;
 }
 .contact-sort{
-    margin-left: 140px;
+    margin-left: 33%;
     display: flex;
     justify-content: center;
     align-items: center;

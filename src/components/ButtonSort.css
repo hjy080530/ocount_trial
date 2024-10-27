@@ -1,8 +1,11 @@
 .button-sort-container{
     display: flex;
-    width: 470px;
+    width: 60.71%;
+    height: 100%;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-end;
     gap: 20px;
+    margin-left: 3.5%;
+    margin-right: 10%;
     flex-shrink: 0;
 }

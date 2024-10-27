@@ -13,7 +13,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
-  gap: 56px;
+  width: 100vw;
+  height: 100vh;
+}
+.element{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  gap: 7.2%;
   margin-top: 3%;
 }

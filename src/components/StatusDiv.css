@@ -1,67 +1,66 @@
 .status-div {
     border-radius: 30px;
     background: #6BC4FF;
-    width: 300px;
-    height: 280px;
+    width:  35.71%;
+    height: 100%;
     flex-shrink: 0;
   }
-  
   .status-div.primary {
     border-radius: 30px;
     background: #6BC4FF;
-    width: 300px;
-    height: 280px;
+    width:  35.71%;
+    height: 100%;
     flex-shrink: 0;
   }
   .status-div.primary:hover {
     border-radius: 30px;
     background: #65ABD9;
-    width: 300px;
-    height: 280px;
+    width:  35.71%;
+    height: 100%;
     flex-shrink: 0;
   }
   
   .status-div.secondary {
     border-radius: 30px;
     background:#4CAF50;
-    width: 300px;
-    height: 280px;
+    width:  35.71%;
+    height: 100%;
     flex-shrink: 0;
   }
   .status-div.secondary:hover {
     border-radius: 30px;
     background:#3D8D40;
-    width: 300px;
-    height: 280px;
+    width:  35.71%;
+    height: 100%;
     flex-shrink: 0;
   }
   
   .status-div.thirdary {
     border-radius: 30px;
     background: #FF8544;
-    width: 300px;
-    height: 280px;
+    width:  35.71%;
+    height: 100%;
     flex-shrink: 0;
   }
   .status-div.thirdary:hover {
     border-radius: 30px;
     background: #C1693A;
-    width: 300px;
-    height: 280px;
+    width:  35.71%;
+    height: 100%;
     flex-shrink: 0;
   }
   
   .status-div.fourthdary{
     border-radius: 30px;
     background:  #FF6B6B;
-    width: 300px;
-    height: 280px;
+    width:  35.71%;
+    height: 100%;
     flex-shrink: 0;
   }
   .status-div.fourthdary:hover{
     border-radius: 30px;
     background:  #B25454;
-    width: 300px;
-    height: 280px;
+    width:  35.71%;
+    height: 100%;
     flex-shrink: 0;
   }

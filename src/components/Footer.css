@@ -1,9 +1,9 @@
 .footer{
     display: flex;
     width: 100%;
-    height: 101px;
+    height: 15%;
     align-items: center;
-    margin-top: 38px;
+    margin-top: auto;
     background: #2E2E2E;
 }
 .footer-text{
@@ -15,5 +15,5 @@
     line-height: 15px;
     width: 384px;
     flex-shrink: 0;
-    margin-left: 300px;
+    margin-left: 13%;
 }

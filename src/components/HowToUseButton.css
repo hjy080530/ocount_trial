@@ -1,31 +1,40 @@
 .how-to-use-button-container{
     display: flex;
-    width: 510px;
-    height: 124px;
+    width: 100%;
+    height: 46.43%;
     border-radius: 30px;
     border: 3px solid #FFC300;
-    background: #FFF;
+    align-items: center;
+    background: #FFF
 }
 .how-to-use-button-container:hover{
     display: flex;
-    width: 510px;
-    height: 124px;
+    width: 100%;
+    height: 46.43%;
     border-radius: 30px;
-    border: 3px solid#FFC300 ;
-    background: #E4E4E4;
+    border: 3px solid #FFC300;
+    align-items: center;
+    background: #DEDEDE
 }
-.how-to-use-button-text-sort{
+.how-to-use-inner-sort{
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    height: 50%;
+    margin-left: 30%;
+}
+.how-to-use-button-text-sort {
+    display: flex;
+    height: 100%;
+    margin-left: 2%;
+    justify-content: flex-start;
     align-items: flex-start;
-    gap: 1px;
-    margin-left: 25px;
-    margin-top: 31px;
 }
 .how-to-use-button-text-En{
     color: #000;
+    width: max-content;
     font-family: Pretendard;
-    font-size: 36px;
+    font-size: 190%;
+    height: fit-content;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -33,13 +42,14 @@
 .how-to-use-button-text-Ko{
     color: #000;
     font-family: Pretendard;
-    font-size: 20px;
+    font-size: 100%;
+    height: fit-content;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     align-self: stretch;
 }
 .how-to-use-button-lighticon{
-    margin-left: 100px;
-    margin-top: 0px;
+    width: 15%;
+    height: 15%;
 }
