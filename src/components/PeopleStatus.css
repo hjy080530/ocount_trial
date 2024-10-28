@@ -2,7 +2,7 @@
     width:  35%;
     height: 100%;
     flex-shrink: 0;
-    border-radius: 30px;
+    border-radius: 2vw;
     background: #6BC4FF;
 }
 .status-div-inner-sort{
@@ -12,97 +12,147 @@
     width: 100%;
     height: 100%;
 }
-.status-dots{
+.status-dots-sort{
     display: flex;
     align-items: center;
-    gap: 18px;
+    gap:1.5vw;
     width: fit-content;
-    margin-top: 10%;
-    margin-left: 55px;
+    margin-top: 4vw;
+    margin-left: -10vw;
+}
+.status-dots{
+    width: 0.55vw;
+    height: 0.55vw;
 }
 .status-noone{
-    width: 109.76px;
-    height: 111.081px;
+    width: 100%;
+    height: fit-content;
     flex-shrink: 0;
-    margin-top: -55px;
-    margin-left: 140px;
+    margin-top: -4.3vw;
+    margin-left: 24vw;
+}
+.status-noone-img{
+    width: 8vw;
+    height: fit-content;
 }
 .status-text{
     font-family: 'CHAB_OTF';
     color: #FFF;
-    -webkit-text-stroke-width: 2px;
+    margin-left: -3vw;
+    -webkit-text-stroke-width: 0.15vw;
     -webkit-text-stroke-color: #000;
-    font-size: 26px;
+    font-size: 2vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    width: 250px;
-    height: 32px;
+    width: 140%;
+    height:fit-content;
     flex-shrink: 0;
 }
+.status-textDiv1{
+    margin-top: 2.7vw;
+    margin-left: 3vw;
+}
+.status-textDiv2{
+    margin-top: 2.7vw;
+    margin-left: 3vw;
+}
+.status-star-big{
+    width: 1.6vw;
+    margin-top: 2vw;
+    margin-left: -9vw;
+    height: fit-content;
+}
+.status-star-small{
+    margin-top:0.7vw;
+    margin-left: -4vw;
+    width: 1.2vw;
+    height: fit-content;
+}
+.status-some{
+    margin-top: -6.5vw;
+    margin-left: 8vw;
+    width: 8vw;
+    height: fit-content;
+}
+.status-textDiv3{
+    margin-top: 2.7vw;
+    margin-left: 3vw;
+}
+.status-text-Not-Many{
+    width: 3vw;
+    height: fit-content;
+    margin-top: 1.5vw;
+    margin-left: 5vw;
+    font-family: 'CHAB_OTF';
+    color: #FFF;
+    margin-left: 0.5vw;
+    -webkit-text-stroke-width: 0.15vw;
+    -webkit-text-stroke-color: #000;
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 140%;
+    height:fit-content;
+    flex-shrink: 0;
+}
+
+.statusNotManyStar{
+    width: 2vw;
+    position: absolute;
+    height: fit-content;
+    padding-top: 2vw;
+    margin-left:1.5vw;
+}
+.statusNotManySpring{
+    width: 3vw;
+    position: absolute;
+    height: auto;
+    margin-top: 0.5vw;
+    padding-left: 4vw;
+}
+.statusNotMany{
+    position: absolute;
+    margin-top: -4vw;
+    padding-left: 8.7vw;
+    width: 8vw;
+    height: fit-content;
+}
+.status-textDiv4{
+    margin-top: 3vw;
+    margin-left: -14vw;
+}
+
 .status-text-right{
     font-family: 'CHAB_OTF';
     text-align: right;
     color: #FFF;
-    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 0.15vw;
     -webkit-text-stroke-color: #000;
-    font-size: 26px;
+    font-size: 2vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    width: 250px;
-    height: 32px;
+    width: 30vw;
+    height: fit-content;
     flex-shrink: 0;
 }
-.status-textDiv1{
-    margin-top: 40px;
-    margin-left: 50px;
-}
-.status-textDiv2{
-    margin-top: 40px;
-    margin-left: 50px;
-}
-.sortStarB{
-    margin-top: 70px;
-    margin-left: 90px;
-}
-.sortStarS{ 
-    margin-top:0px;
-    margin-left: 110px;
-}
-.statusSome{
-    margin-top: -85px;
-    margin-left: 150px;
-}
-.status-textDiv3{
-    margin-top: 40px;
-    margin-left: 50px;
-}
-.statusNotManySpring{
-    margin-top: 90px;
-    margin-left: 90px;
-}
-.statusNotManyStar{
-    margin-top: 0px;
-    margin-left: 60px;
-}
-.statusNotMany{
-    margin-top: -110px;
-    margin-left: 150px;
-}
-.status-textDiv4{
-    margin-top: 40px;
-    margin-left: 5px;
-}
 .statusMany{
-    margin-top: 50px;
-    margin-left: 50px;
+    padding-top: 0vw;
+    margin-left: -7vw;
+    width: 8vw;
+    height: fit-content;
 }
 .statusManyEleBig{
-    margin-top: -100px;
-    margin-left: 160px;
+    margin-top: -6vw;
+    margin-left: 6vw;
+    width: 2.8vw;
+    height: fit-content;
 }
 .statusManyEleSmall{
-    margin-top: 0px;
-    margin-left: 170px;
+    margin-top: 0vw;
+    margin-left: 8vw;
+    width: 2vw;
+    height: fit-content;
 }

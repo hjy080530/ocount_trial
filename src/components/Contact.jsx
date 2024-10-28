@@ -6,7 +6,7 @@ const Contact = () => {
         <div className="contact-container">
             <div className="contact-sort">
                 <p className="contact-text">문의하기</p>
-                <img src={Contactimg} alt="Contactimg" />
+                <img src={Contactimg} className='contact-img' alt="Contactimg" />
             </div>
         </div>
     );

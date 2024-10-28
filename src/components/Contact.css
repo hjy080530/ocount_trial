@@ -15,15 +15,21 @@
 .contact-sort{
     margin-left: 33%;
     display: flex;
-    justify-content: center;
+    width: 80%;
+    flex-direction: row;
     align-items: center;
-    gap: 5vw;
 }
 .contact-text{
     color: #FFF;
     font-family: Pretendard;
     font-size: 2.5vw;
+    width: max-co;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+.contact-img{
+    width: 17%;
+    margin-left: 1vw;
+    height: fit-content;
 }

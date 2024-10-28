@@ -15,7 +15,7 @@ import './PeopleStatus.css';
 
 
 const PeopleStatus = () => {
-    const person = 0; 
+    const person =9; 
 
     return (
         <>
@@ -25,13 +25,13 @@ const PeopleStatus = () => {
                         <div className="status-textDiv1">
                             <p className="status-text">아리소리에 사람이 <br /> 없어요!</p>
                         </div>
-                        <div className="status-dots">
-                            <img src={statusDot} alt="statusDot" />
-                            <img src={statusDot} alt="statusDot" />
-                            <img src={statusDot} alt="statusDot" />
+                        <div className="status-dots-sort">
+                            <img src={statusDot} className='status-dots' alt="statusDot" />
+                            <img src={statusDot} className='status-dots'alt="statusDot" />
+                            <img src={statusDot} className='status-dots'alt="statusDot" />
                         </div>
                         <div className="status-noone">
-                            <img src={statusNoone} alt="statusNoone" />
+                            <img src={statusNoone} className='status-noone-img' alt="statusNoone" />
                         </div>
                     </div>
                 </StatusDiv>
@@ -42,33 +42,19 @@ const PeopleStatus = () => {
                         <div className="status-textDiv2">
                             <p className="status-text">아리소리에 사람이<br />  많지 않아요!</p>
                         </div>
-                        <div className="sortStarB">
-                            <img src={statusStarBig} alt="statusStarBig" />
-                        </div>
-                        <div className='sortStarS'>
-                            <img src={statusStarSmall} alt="statusStarSmall" />
-                        </div>
-                        <div className='statusSome'>
-                            <img src={statusSome} alt="statusSome" />
-                        </div>
+                        <img src={statusStarBig} className='status-star-big' alt="statusStarBig" />
+                        <img src={statusStarSmall} className='status-star-small' alt="statusStarSmall" />
+                        <img src={statusSome} className='status-some' alt="statusSome" />
                     </div>
                 </StatusDiv>
             )}
             {person > 5 && person <= 10 && (
                 <StatusDiv version="thirdary">
                     <div className="status-textDiv3">
-                        <div className='status-text-inner'>
-                        <p className="status-text">아리소리에 사람이<br />어느 정도<br />있어요</p>
-                        </div>
-                        <div className="statusNotManySpring">
-                            <img src={statusNotManySpring} alt="statusNotManySpring" />
-                        </div>
-                        <div className="statusNotManyStar">
-                            <img src={statusNotManyStar} alt="statusNotManyStar" />
-                        </div>
-                        <div className='statusNotMany'>
-                            <img src={statusNotMany} alt="statusNotMany" />
-                        </div>
+                        <p className="status-text-Not-Many">아리소리에 사람이<br />어느 정도<br />있어요</p>
+                        <img src={statusNotManyStar}className="statusNotManyStar" alt="statusNotManyStar" />
+                        <img src={statusNotManySpring} className="statusNotManySpring" alt="statusNotManySpring" />
+                        <img src={statusNotMany} className='statusNotMany'alt="statusNotMany" />
                     </div>
                 </StatusDiv>
             )}
@@ -78,15 +64,9 @@ const PeopleStatus = () => {
                         <div className="status-textDiv4">
                             <p className="status-text-right">아리소리에 사람이<br />많아요!</p>
                         </div>
-                        <div className='statusMany'>
-                            <img src={statusMany} alt="statusMany" />
-                        </div>
-                        <div className='statusManyEleBig'>
-                            <img src={statusManyEleBig} alt="statusManyEleBig" />
-                        </div>
-                        <div className='statusManyEleSmall'>
-                            <img src={statusManyEleSmall} alt="statusManyEleSmall" />
-                        </div>
+                        <img src={statusMany} className='statusMany' alt="statusMany" />
+                        <img src={statusManyEleBig}  className='statusManyEleBig' alt="statusManyEleBig" />
+                        <img src={statusManyEleSmall} className='statusManyEleSmall' alt="statusManyEleSmall" />
                     </div>
                 </StatusDiv>
             )}
