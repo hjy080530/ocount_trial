@@ -9,11 +9,10 @@
 .footer-text{
     color: #FFF;
     font-family: Pretendard;
-    font-size: 10px;
+    font-size: 0.65vw;
     font-style: normal;
     font-weight: 300;
-    line-height: 15px;
-    width: 384px;
+    line-height: 1.1vw;
     flex-shrink: 0;
-    margin-left: 13%;
+    margin-left: 18%;
 }

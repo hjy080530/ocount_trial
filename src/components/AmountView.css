@@ -1,10 +1,10 @@
 .amountView{
     display: flex;
     width: 100%;
-    height: 170px;
+    height: 36.02%;
     flex-shrink: 0;
-    border-radius: 30px;
-    background: var(--primary, #333);
+    border-radius: 2vw;
+    background: #333;
     box-sizing: border-box;
     justify-content: center;
     flex-direction: column;
@@ -13,19 +13,26 @@
 .amountView:hover{
     display: flex;
     width: 100%;
-    height: 170px;
+    height: 36.02%;
     flex-shrink: 0;
-    border-radius: 30px;
+    border-radius: 2vw;
     background: #262626;
     box-sizing: border-box;
     justify-content: center;
     flex-direction: column;
     padding-left: 10%;
 }
+.amountView-text{
+    width: 49.17%;
+    height: 47.65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 .current{
     color: #FFF;
     font-family: 'Pretendard', sans-serif; 
-    font-size: 28px;
+    font-size: 1.5vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -34,7 +41,7 @@
 .currentMoney{
     color: #FFF;
     font-family: 'Pretendard', sans-serif; 
-    font-size: 40px;
+    font-size: 2.5vw;
     font-style: normal;
     font-weight: 700;
     line-height: normal;

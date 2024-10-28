@@ -6,7 +6,9 @@ const Header = () => {
     return(
         <>
         <div className="main-header">
-            <img src={logo} alt="main-logo" />
+            <div className="main-header-logo">
+                <img src={logo} alt="main-logo" className="main-header-logo-img" />
+            </div>
             <button className="log-in-button">
                 <p className="log-in-buttonp">로그인</p>
             </button>

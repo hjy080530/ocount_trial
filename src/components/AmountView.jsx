@@ -5,7 +5,7 @@ const AmountView = () =>{
     return (
         <>
         <div className="amountView">
-            <div>
+            <div className="amountView-text">
                 <p className="current">현재 사용가능한 금액</p>
                 <p className="currentMoney">로그인 후 사용가능합니다.</p>
             </div>
