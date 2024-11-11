@@ -2,7 +2,7 @@
 
 .main-header {
     display: flex;
-    width: 64%;
+    width: 63%;
     height: 6.24%;
     justify-content: space-between;
     align-items: center;
@@ -28,26 +28,25 @@
     justify-content: center;
     align-items: center;
     border-radius: 2vw;
-    width: 10%;
     border: 0.09vw solid #000;
     background: #FFF;
-    padding: 1.29% 1.75%;
+    padding: 10% 30%;
 }
 .log-in-button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 2vw;
-    width: 10%;
     border: 0.09vw solid #000;
     background: #E4E4E4;
-    padding: 1.29% 1.75%;
+    padding: 10% 30%;
 }
 .log-in-buttonp {
     color: #000;
     font-family: 'Pretendard', sans-serif; 
-    font-size: 1vw;
+    font-size: 1.3vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    white-space: nowrap;
 }

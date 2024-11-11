@@ -1,19 +1,22 @@
 .contact-container{
     display: flex;
-    width: 100%;
-    height: 46.43%;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
     border-radius: 2vw;
     background: #FFC300;
 }
 .contact-container:hover{
     display: flex;
-    width: 100%;
-    height: 46.43%;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
     border-radius: 2vw;
     background: #D3A202;
 }
 .contact-sort{
-    margin-left: 33%;
     display: flex;
     width: 80%;
     flex-direction: row;
@@ -21,15 +24,16 @@
 }
 .contact-text{
     color: #FFF;
-    font-family: Pretendard;
+    font-family: Pretendard,sans-serif;
     font-size: 2.5vw;
-    width: max-co;
+    width: fit-content;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-left: auto;
 }
 .contact-img{
-    width: 17%;
+    width: 25%;
     margin-left: 1vw;
     height: fit-content;
 }

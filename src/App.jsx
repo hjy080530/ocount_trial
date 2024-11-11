@@ -1,21 +1,16 @@
-import './App.css';
-import React from 'react';
-import Header from './components/Header'
-import Dashboard from './components/Dashboard';
-import Footer from './components/Footer';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import MainPage from './pages/MainPage1.jsx';
+import ConfirmAmount from './pages/ConfirmAmount.jsx'
+
 function App() {
   return (
-    <>
-    <div className='container'>
-      <div className='element'>
-        <Header />
-        <Dashboard />
-        <Footer />
-      </div>
-
-    </div>
-    </>
-  )
+    <Router>
+      <Routes>
+        <Route path="/" element={<MainPage />} />
+        <Route path="/cofirmamount" element={<ConfirmAmount />} />
+      </Routes>
+    </Router>
+  );
 }
 
 export default App;
