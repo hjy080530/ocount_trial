@@ -7,9 +7,9 @@ export function useAuth() {
 }
 
 export function AuthProvider({ children }) {
-  const [isLogin, setIsLogin] = useState(false);
-  const [userName, setUserName] = useState(""); 
-  const [userAmount,setUserAmount] =useState();
+  const [isLogin, setIsLogin] = useState(true);
+  const [userName, setUserName] = useState("박선영"); 
+  const [userAmount,setUserAmount] =useState(1112);
   
   const login = (name,amount) => {
     setIsLogin(true);

@@ -7,7 +7,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<MainPage />} />
-        <Route path="/cofirmamount" element={<ConfirmAmount />} />
+        <Route path="/confirmAmount" element={<ConfirmAmount />} />
       </Routes>
     </Router>
   );

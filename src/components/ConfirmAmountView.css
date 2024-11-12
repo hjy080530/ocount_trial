@@ -1,0 +1,75 @@
+.confirmAmountView{
+    display: flex;
+    width: 100%;
+    height: 36.02%;
+    flex-shrink: 0;
+    border-radius: 2vw;
+    background: #333;
+    box-sizing: border-box;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 10%;
+}
+.confirmAmountView:hover{
+    display: flex;
+    width: 100%;
+    height: 36.02%;
+    flex-shrink: 0;
+    border-radius: 2vw;
+    background: #262626;
+    box-sizing: border-box;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 10%;
+}
+.confirmAmountView-text{
+    width: 49.17%;
+    height: 47.65%;
+    display: flex;
+    margin-top: -4%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.confirmSort{
+    width: 90%;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.current{
+    color: #FFF;
+    font-family: 'Pretendard', sans-serif; 
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-self: stretch;
+}
+.currentMoney{
+    color: #FFF;
+    font-family: 'Pretendard', sans-serif; 
+    font-size: 2.5vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.charge{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2vw;
+    border:none ;
+    width: 15%;
+    height: 40%;
+    background:  #FFC300;
+}
+.chargeText{
+    color: #FFF;
+    font-family: Pretendard;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
