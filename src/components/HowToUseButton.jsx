@@ -1,9 +1,12 @@
 import React from 'react';
 import './HowToUseButton.css'
 import lighticon from '../image/lighticon.svg'
+import {useNavigate} from 'react-router-dom';
+
 const HowToUseButton = () => {
+    const navigate = useNavigate();
     return (
-        <div className="how-to-use-button-container">
+        <div className="how-to-use-button-container" onClick={()=>navigate('/howToUsePage')}>
             <div className='how-to-use-inner-sort'>
                 <img src={lighticon} alt="lighticon" className="how-to-use-button-lighticon" />
                 <div className="how-to-use-button-text-sort">

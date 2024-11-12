@@ -9,7 +9,7 @@ const AmountView = () =>{
     return (
         
         <>
-        <div onClick={() => navigate('/other')}>
+        <div onClick={() => navigate('/confirm')}>
             
         </div>
         {isLogin ?(
