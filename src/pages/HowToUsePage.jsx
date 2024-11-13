@@ -1,20 +1,20 @@
 import React from "react";
-import "./HowToUsePage.jsx"
 import Header from "../components/Header.jsx";
-import HowToUse from "../components/HowToUse.jsx";
-import Footer from "../components/HowToUseFooter.jsx";
+import HowToUse from "../components/HowToUse/HowToUse.jsx";
+import Footer from "../components/HowToUse/HowToUseFooter.jsx";
 import { AuthProvider } from "../AuthContext";
+import "./HowToUsePage.css"
 const HowToUsePage =()=>{
     return(
         <>
-            <div className="container1">
-            <AuthProvider>
-                <Header/>
-                <div className="element-sort">
-                    <HowToUse/>
-                </div>
+            <div className="container3">
+                <AuthProvider>
+                    <div className="element-sort3">
+                        <Header/>
+                        <HowToUse/>
+                    </div>
+                    <Footer/>
                 </AuthProvider>
-                <Footer/>
             </div>
         </>
     );

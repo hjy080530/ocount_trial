@@ -1,4 +1,4 @@
-import { AuthContext } from "../AuthContext";
+import { AuthContext } from "../../AuthContext";
 import React,{useContext} from "react";
 import './ConfirmAmountView.css';
 

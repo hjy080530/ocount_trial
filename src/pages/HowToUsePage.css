@@ -3,55 +3,15 @@
     padding: 0;
 }
 
-.container1 {
-    display: flex;
-    flex-direction: row;
-    width: 100vw;
-    height: 100%;
+.container3{
+    width: 100%;
+    height: 550%;
 }
-
-.element-sort1 {
+.element-sort3 {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100vw;
-    gap: 7.14%;
-    height: 100vh;
-}
-
-.headerSort {
-    position: absolute;
-    top: 0; /* -50%에서 2%로 수정 */
-    display: flex;
-    align-items: center;
-}
-
-/* 태블릿 디바이스 (768px 이하) */
-@media screen and (max-width: 768px) {
-    .container1 {
-        height: 450%;
-    }
-    
-    .element-sort1 {
-        gap: 5%;
-    }
-    
-    .headerSort {
-        margin-top: 4%;
-    }
-}
-
-/* 모바일 디바이스 (480px 이하) */
-@media screen and (max-width: 480px) {
-    .container1 {
-        height: 350%;
-    }
-    
-    .element-sort1 {
-        gap: 3%;
-    }
-    
-    .headerSort {
-        margin-top: 6%;
-    }
+    height: 540vh;
+    margin-top: 2.5vw;
 }

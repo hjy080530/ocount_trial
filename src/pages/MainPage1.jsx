@@ -8,7 +8,7 @@ function MainPage() {
 
 
     return (
-        <div className='container'>
+        <div className='container2'>
         <div className='element-sort'>
           <AuthProvider>
             <Header/>

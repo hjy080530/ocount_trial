@@ -1,6 +1,6 @@
 import React from 'react';
 import './ButtonSort.css';
-import HowToUseButton from './HowToUseButton';
+import HowToUseButton from './HowToUse/HowToUseButton';
 import Contact from './Contact';
 import Announcement from './Announcement';
 

@@ -1,6 +1,6 @@
 import React from "react";
 import "./ConfirmAmount.css";
-import ConfirmAmountDashboard from "../components/ConfirmAmountDashboard";
+import ConfirmAmountDashboard from "../components/Amount/ConfirmAmountDashboard";
 import { AuthProvider } from "../AuthContext";
 import Header from '../components/Header'
 import Footer from '../components/Footer';

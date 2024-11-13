@@ -1,6 +1,6 @@
 import React from 'react';
 import './HowToUseButton.css'
-import lighticon from '../image/lighticon.svg'
+import lighticon from '../../image/lighticon.svg'
 import {useNavigate} from 'react-router-dom';
 
 const HowToUseButton = () => {
