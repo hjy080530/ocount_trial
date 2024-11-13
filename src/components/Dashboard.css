@@ -1,9 +1,8 @@
 .dashBoard{
     display: flex;
     width: 65%;
-    height:60.67%;
+    height:65%;
     align-items: flex-end;
-    gap: 6%;
     flex-wrap: wrap;
 }
 .dashBoard-inner{

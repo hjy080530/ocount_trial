@@ -19,7 +19,7 @@ const Header = () => {
                         ) : null
                     ) : (
                         <button className="log-in-button">
-                            <p className="log-in-buttonp">로그인</p>
+        ₩                    <p className="log-in-buttonp">로그인</p>
                         </button>
                     )}
                 </div>

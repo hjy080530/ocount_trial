@@ -1,5 +1,5 @@
 import React from "react";
-import "./"
+import "./HowToUsePage.jsx"
 import Header from "../components/Header.jsx";
 import HowToUse from "../components/HowToUse.jsx";
 import Footer from "../components/HowToUseFooter.jsx";
@@ -8,11 +8,13 @@ const HowToUsePage =()=>{
     return(
         <>
             <div className="container1">
-                <AuthProvider>
-                    <Header/>
+            <AuthProvider>
+                <Header/>
+                <div className="element-sort">
                     <HowToUse/>
-                    <Footer/>
+                </div>
                 </AuthProvider>
+                <Footer/>
             </div>
         </>
     );

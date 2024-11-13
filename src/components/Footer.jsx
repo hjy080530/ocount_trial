@@ -1,8 +1,8 @@
-import './Footer.css';
+import "./Footer.css";
 import React from 'react';
 const Footer = () => {
     return (
-        <div className="footer">
+        <div className="footer1">
             <p className="footer-text">
                 상호:부산소프트웨어 마이스터고등학고 사회적 협동조합 |대표:김민경(이사장)<br /> 
                 사업자 등록번호: 214-82-16238<br />
